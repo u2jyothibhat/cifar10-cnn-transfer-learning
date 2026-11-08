@@ -1,0 +1,35 @@
+Epoch 1/15
+1250/1250 - 146s - 117ms/step - accuracy: 0.3006 - loss: 2.0376 - val_accuracy: 0.4536 - val_loss: 1.5087 - learning_rate: 0.0010
+Epoch 2/15
+1250/1250 - 162s - 130ms/step - accuracy: 0.3578 - loss: 1.8646 - val_accuracy: 0.4358 - val_loss: 1.6115 - learning_rate: 0.0010
+Epoch 3/15
+1250/1250 - 166s - 133ms/step - accuracy: 0.3510 - loss: 2.1342 - val_accuracy: 0.3739 - val_loss: 2.2239 - learning_rate: 0.0010
+Epoch 4/15
+
+Epoch 4: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+1250/1250 - 169s - 135ms/step - accuracy: 0.3334 - loss: 2.8904 - val_accuracy: 0.3802 - val_loss: 2.8200 - learning_rate: 0.0010
+Epoch 5/15
+1250/1250 - 172s - 137ms/step - accuracy: 0.4086 - loss: 1.8252 - val_accuracy: 0.4859 - val_loss: 1.5118 - learning_rate: 2.0000e-04
+Epoch 6/15
+1250/1250 - 174s - 139ms/step - accuracy: 0.4066 - loss: 1.9065 - val_accuracy: 0.5016 - val_loss: 1.5683 - learning_rate: 2.0000e-04
+Epoch 7/15
+
+Epoch 7: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+1250/1250 - 174s - 139ms/step - accuracy: 0.3958 - loss: 2.0812 - val_accuracy: 0.4903 - val_loss: 1.6876 - learning_rate: 2.0000e-04
+Epoch 8/15
+1250/1250 - 169s - 135ms/step - accuracy: 0.4547 - loss: 1.5700 - val_accuracy: 0.5406 - val_loss: 1.2939 - learning_rate: 4.0000e-05
+Epoch 9/15
+1250/1250 - 185s - 148ms/step - accuracy: 0.4605 - loss: 1.5377 - val_accuracy: 0.5400 - val_loss: 1.2873 - learning_rate: 4.0000e-05
+Epoch 10/15
+1250/1250 - 185s - 148ms/step - accuracy: 0.4564 - loss: 1.5477 - val_accuracy: 0.5424 - val_loss: 1.2719 - learning_rate: 4.0000e-05
+Epoch 11/15
+1250/1250 - 184s - 147ms/step - accuracy: 0.4591 - loss: 1.5529 - val_accuracy: 0.5292 - val_loss: 1.3247 - learning_rate: 4.0000e-05
+Epoch 12/15
+1250/1250 - 186s - 149ms/step - accuracy: 0.4519 - loss: 1.5730 - val_accuracy: 0.5465 - val_loss: 1.2956 - learning_rate: 4.0000e-05
+Epoch 13/15
+1250/1250 - 185s - 148ms/step - accuracy: 0.4471 - loss: 1.5969 - val_accuracy: 0.5557 - val_loss: 1.2603 - learning_rate: 4.0000e-05
+Epoch 14/15
+1250/1250 - 190s - 152ms/step - accuracy: 0.4507 - loss: 1.5915 - val_accuracy: 0.5438 - val_loss: 1.3001 - learning_rate: 4.0000e-05
+Epoch 15/15
+1250/1250 - 194s - 155ms/step - accuracy: 0.4439 - loss: 1.6263 - val_accuracy: 0.5235 - val_loss: 1.3620 - learning_rate: 4.0000e-05
+Restoring model weights from the end of the best epoch: 13.

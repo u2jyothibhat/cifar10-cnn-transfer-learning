@@ -1,0 +1,9 @@
+{
+ "variant": "int8",
+ "model": "ResNet50_Transfer",
+ "size_mb": 23.067245483398438,
+ "accuracy": 0.87,
+ "latency_ms_per_image": 22.799440224965416,
+ "convert_sec": 2.122662305831909,
+ "n_eval_images": 300
+}

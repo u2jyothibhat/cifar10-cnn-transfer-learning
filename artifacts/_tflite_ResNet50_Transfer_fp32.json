@@ -1,0 +1,9 @@
+{
+ "variant": "fp32",
+ "model": "ResNet50_Transfer",
+ "size_mb": 90.62070846557617,
+ "accuracy": 0.87,
+ "latency_ms_per_image": 85.3652532895406,
+ "convert_sec": 1.2335562705993652,
+ "n_eval_images": 300
+}

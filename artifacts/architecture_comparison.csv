@@ -1,0 +1,5 @@
+model,weights,core block,pooling head,total params,trainable,trainable %,feature layer,activation MB (bs=32),est. train MB
+Simple_CNN,scratch,plain 3-block conv stack,Flatten,"12,939,722","12,939,722",100.0%,conv3_128,478.16,675.6
+VGG16_Transfer,ImageNet,"3x3 conv stacks, no BN",GlobalAvgPool,"14,781,642","66,954",0.5%,block5_pool,1914.53,1971.69
+ResNet50_Transfer,ImageNet,bottleneck residual blocks,GlobalAvgPool,"23,851,274","263,562",1.1%,conv5_block3_out,4586.69,4680.69
+EfficientNetB0_Transfer,ImageNet,MBConv + squeeze-excitation,GlobalAvgPool,"4,214,829","165,258",3.9%,top_activation,3139.68,3157.65

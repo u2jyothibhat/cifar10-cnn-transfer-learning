@@ -1,0 +1,15 @@
+# Large regenerable files
+data/train.csv
+data/test.csv
+data/*.npy
+extracted_files/
+*.tar.gz
+*.h5
+*.keras
+*.tflite
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

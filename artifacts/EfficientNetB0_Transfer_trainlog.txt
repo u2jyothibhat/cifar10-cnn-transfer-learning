@@ -1,0 +1,31 @@
+Epoch 1/15
+1250/1250 - 233s - 186ms/step - accuracy: 0.7358 - loss: 0.7832 - val_accuracy: 0.8793 - val_loss: 0.3458 - learning_rate: 0.0010
+Epoch 2/15
+1250/1250 - 227s - 181ms/step - accuracy: 0.7910 - loss: 0.6107 - val_accuracy: 0.8888 - val_loss: 0.3133 - learning_rate: 0.0010
+Epoch 3/15
+1250/1250 - 226s - 181ms/step - accuracy: 0.7978 - loss: 0.5911 - val_accuracy: 0.8932 - val_loss: 0.3058 - learning_rate: 0.0010
+Epoch 4/15
+1250/1250 - 226s - 181ms/step - accuracy: 0.8086 - loss: 0.5648 - val_accuracy: 0.8896 - val_loss: 0.3212 - learning_rate: 0.0010
+Epoch 5/15
+1250/1250 - 226s - 181ms/step - accuracy: 0.8097 - loss: 0.5592 - val_accuracy: 0.8927 - val_loss: 0.3058 - learning_rate: 0.0010
+Epoch 6/15
+1250/1250 - 226s - 181ms/step - accuracy: 0.8134 - loss: 0.5485 - val_accuracy: 0.8975 - val_loss: 0.2997 - learning_rate: 0.0010
+Epoch 7/15
+1250/1250 - 226s - 181ms/step - accuracy: 0.8159 - loss: 0.5405 - val_accuracy: 0.8975 - val_loss: 0.2946 - learning_rate: 0.0010
+Epoch 8/15
+1250/1250 - 252s - 202ms/step - accuracy: 0.8163 - loss: 0.5382 - val_accuracy: 0.8983 - val_loss: 0.2913 - learning_rate: 0.0010
+Epoch 9/15
+1250/1250 - 263s - 210ms/step - accuracy: 0.8184 - loss: 0.5325 - val_accuracy: 0.8944 - val_loss: 0.3126 - learning_rate: 0.0010
+Epoch 10/15
+1250/1250 - 256s - 205ms/step - accuracy: 0.8184 - loss: 0.5337 - val_accuracy: 0.8966 - val_loss: 0.2998 - learning_rate: 0.0010
+Epoch 11/15
+1250/1250 - 252s - 202ms/step - accuracy: 0.8207 - loss: 0.5293 - val_accuracy: 0.8997 - val_loss: 0.2886 - learning_rate: 0.0010
+Epoch 12/15
+1250/1250 - 243s - 194ms/step - accuracy: 0.8200 - loss: 0.5267 - val_accuracy: 0.8997 - val_loss: 0.2935 - learning_rate: 0.0010
+Epoch 13/15
+1250/1250 - 225s - 180ms/step - accuracy: 0.8231 - loss: 0.5225 - val_accuracy: 0.9003 - val_loss: 0.2887 - learning_rate: 0.0010
+Epoch 14/15
+1250/1250 - 224s - 179ms/step - accuracy: 0.8197 - loss: 0.5341 - val_accuracy: 0.9000 - val_loss: 0.2855 - learning_rate: 0.0010
+Epoch 15/15
+1250/1250 - 223s - 178ms/step - accuracy: 0.8212 - loss: 0.5263 - val_accuracy: 0.9024 - val_loss: 0.2847 - learning_rate: 0.0010
+Restoring model weights from the end of the best epoch: 15.

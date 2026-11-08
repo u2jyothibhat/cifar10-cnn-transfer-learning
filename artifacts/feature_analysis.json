@@ -1,0 +1,90 @@
+{
+  "Simple_CNN": {
+    "feature_shape": [
+      56,
+      56,
+      128
+    ],
+    "feature_dim_flat": 401408,
+    "pooled_dim": 128,
+    "sparsity_pct": 88.41937965860173,
+    "activation_mean": 0.23241422440372822,
+    "activation_std": 1.082157120666036,
+    "activation_max": 54.944698333740234,
+    "activation_p99": 5.478936195373535,
+    "mean_active_units_per_sample": 46485.5365,
+    "n_samples": 2000,
+    "extraction_time_sec": 3.237537145614624,
+    "layer": "conv3_128",
+    "pca50_explained_variance": 0.9999341368675232,
+    "silhouette_score": -0.1338995099067688,
+    "knn10_accuracy_2d": 0.2515,
+    "linear_probe_accuracy": 0.4485
+  },
+  "VGG16_Transfer": {
+    "feature_shape": [
+      7,
+      7,
+      512
+    ],
+    "feature_dim_flat": 25088,
+    "pooled_dim": 512,
+    "sparsity_pct": 87.61244220344388,
+    "activation_mean": 1.2207130251833964,
+    "activation_std": 4.865763575098465,
+    "activation_max": 270.3870849609375,
+    "activation_p99": 25.367777824401855,
+    "mean_active_units_per_sample": 3107.7905,
+    "n_samples": 2000,
+    "extraction_time_sec": 19.39173698425293,
+    "layer": "block5_pool",
+    "pca50_explained_variance": 0.6965389847755432,
+    "silhouette_score": -0.02349235862493515,
+    "knn10_accuracy_2d": 0.6094999999999999,
+    "linear_probe_accuracy": 0.7515000000000001
+  },
+  "ResNet50_Transfer": {
+    "feature_shape": [
+      7,
+      7,
+      2048
+    ],
+    "feature_dim_flat": 100352,
+    "pooled_dim": 2048,
+    "sparsity_pct": 83.33098244180485,
+    "activation_mean": 0.47158483009488067,
+    "activation_std": 1.7645831472392912,
+    "activation_max": 105.08812713623047,
+    "activation_p99": 8.820483446121216,
+    "mean_active_units_per_sample": 16727.6925,
+    "n_samples": 2000,
+    "extraction_time_sec": 14.506253957748413,
+    "layer": "conv5_block3_out",
+    "pca50_explained_variance": 0.6247959136962891,
+    "silhouette_score": 0.09533405303955078,
+    "knn10_accuracy_2d": 0.7609999999999999,
+    "linear_probe_accuracy": 0.8474999999999999
+  },
+  "EfficientNetB0_Transfer": {
+    "feature_shape": [
+      7,
+      7,
+      1280
+    ],
+    "feature_dim_flat": 62720,
+    "pooled_dim": 1280,
+    "sparsity_pct": 3.1887755102040813e-06,
+    "activation_mean": 0.08993489915724694,
+    "activation_std": 0.8225038228267985,
+    "activation_max": 41.63872146606445,
+    "activation_p99": 4.026771903038025,
+    "mean_active_units_per_sample": 11798.1405,
+    "n_samples": 2000,
+    "extraction_time_sec": 11.207808017730713,
+    "layer": "top_activation",
+    "pca50_explained_variance": 0.6097444295883179,
+    "silhouette_score": 0.13608139753341675,
+    "knn10_accuracy_2d": 0.772,
+    "linear_probe_accuracy": 0.8525
+  }
+}

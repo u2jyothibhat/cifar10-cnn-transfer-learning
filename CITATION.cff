@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "CIFAR-10 Image Classification with Deep Convolutional Networks: Training from Scratch vs. ImageNet Transfer Learning"
+type: software
+authors:
+  - family-names: Kodenkiri
+    given-names: Jyothi
+repository-code: "https://github.com/u2jyothibhat/cifar10-cnn-transfer-learning"
+license: MIT
+date-released: "2026-09-08"
+keywords:
+  - deep learning
+  - convolutional neural networks
+  - transfer learning
+  - CIFAR-10
+  - ResNet50
+  - EfficientNet
+  - VGG16
+  - TensorFlow

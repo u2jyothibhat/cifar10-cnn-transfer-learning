@@ -1,0 +1,9 @@
+{
+ "variant": "fp16",
+ "model": "ResNet50_Transfer",
+ "size_mb": 45.34286117553711,
+ "accuracy": 0.87,
+ "latency_ms_per_image": 85.48432270685832,
+ "convert_sec": 1.248918056488037,
+ "n_eval_images": 300
+}

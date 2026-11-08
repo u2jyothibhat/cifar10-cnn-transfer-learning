@@ -1,0 +1,6 @@
+model,epochs configured,epochs run,stopped early,best epoch,best val acc,final train acc,train-val gap,LR start,LR end,LR reductions,min/epoch
+Simple_CNN,15,15,no (budget reached),13,0.5557,0.4439,-0.1086,1.0e-03,4.0e-05,2,2.93
+VGG16_Transfer,15,15,no (budget reached),14,0.8467,0.7833,-0.0637,1.0e-03,2.0e-04,1,9.59
+ResNet50_Transfer,15,15,no (budget reached),15,0.9136,0.8548,-0.0588,1.0e-03,2.0e-04,1,6.3
+EfficientNetB0_Transfer,15,15,no (budget reached),15,0.9024,0.8212,-0.0812,1.0e-03,1.0e-03,0,3.92
+Simple_CNN_Native32,15,15,no (budget reached),13,0.7363,0.6848,-0.055,1.0e-03,2.0e-04,1,0.37
